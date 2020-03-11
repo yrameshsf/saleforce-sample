@@ -5,6 +5,7 @@ public with sharing class Accsamplefun {
     Public void createAcc(){
     // Create A Account
     Account acs = new Account(Name=accName);
+     // Create A Account
     insert acs;
     
     }
