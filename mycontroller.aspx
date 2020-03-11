@@ -16,7 +16,8 @@ public  mycontroller (){
     
     public pagereference save(){
     update account;
-
+system.debug(account);
+//new line
 return null;
     }
 }
