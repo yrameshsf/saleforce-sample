@@ -1,7 +1,7 @@
 public with sharing class Accsamplefun {
 
     public string accName{get;set;}
-    
+    // for testing of github
     Public void createAcc(){
     
     Account acs = new Account(Name=accName);
