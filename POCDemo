@@ -1,0 +1,12 @@
+public with sharing class Accsamplefun {
+
+    public string accName{get;set;}
+    
+    Public void createAcc(){
+    
+    Account acs = new Account(Name=accName);
+    insert acs;
+    
+    }
+
+}
